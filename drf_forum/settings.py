@@ -145,7 +145,7 @@ CORS_ALLOW_HEADERS = (
     'x-requested-with',
 )
 
-#AUTH_USER_MODEL = 'user.User'
+AUTH_USER_MODEL = 'user.User'
 
 ## DRF 
 REST_FRAMEWORK = {
