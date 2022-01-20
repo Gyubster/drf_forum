@@ -1,4 +1,4 @@
-from django.urls import path
+from django.urls             import path
 from django.utils.functional import unpickle_lazyobject
 
 from .views import UserSignIn, UserSignUp
